@@ -9,6 +9,7 @@ and paperwork.
 
 ### Details ###
 
+|               |                                            |
 | ------------- | ------------------------------------------ |
 | Version       | v1.0                                       |
 | Source Code   | https://github.com/colinmcintosh/Savvy/    |
