@@ -1,34 +1,41 @@
 # Savvy #
 
-Savvy is a web-based service that provides location centric price information of goods and services.
+Savvy is a location-based search engine for the prices of goods and services.
+
+This was the Senior Design Project that myself (Colin McIntosh), Will Ashman, Eric Buck, Jordan Jobs, Christian
+Santarelli and Ryan Timken worked on at Drexel University for 9 months in 2015-2016. I worked on the backend
+development, Will worked on the frontend development, and Eric, Jordan, Christian, and Ryan worked on the documentation
+and paperwork.
 
 ### Details ###
 
-|               |                                            |
 | ------------- | ------------------------------------------ |
-| Version       | v0.1                                       |
-| Documentation | http://example.com                         |
-| Source Code   | https://bitbucket.org/wjashman/savvy/      |
+| Version       | v1.0                                       |
+| Source Code   | https://github.com/colinmcintosh/Savvy/    |
 
-### Installation ###
+### Installation and Development###
 
-* Frontend
+This app is meant to be deployed using Microsoft Azure. A Microsoft Azure Web App should be configured with Python3.4
+and configured to deploy this repository to the document root. For development purposes you can run a local copy of the
+website by using the `runserver.py` file.
 
-Run env.sh
-env.sh will auto install brew, node, npm modules, all dependencies, and clone the repo to your current directory
+```shell
+pip install -r requirements.txt
+python runserver.py
+```
 
-Run "gulp" to activate the gulp task manager, will auto concatenate and minify all JS as well as watch for any changes
-gulp will also compile all SASS
+### Screenshots ###
 
-If you want to run specific gulp tasks, run "gulp <<TASK NAME>>"
+![Homepage](/docs/screenshots/Savvy-homepage.png?raw=true "Savvy Homepage")
 
-Run npm run server to start the local server. The local server will watch for any changes
 
-### Contribution guidelines ###
+![Submit a Price](/docs/screenshots/Savvy-submitprice.png?raw=true "Savvy Submit a Price")
 
-* All indents should be 4 spaces, NO TABS, seriously don't use tabs.
 
-### Examples ###
+![FAQ](/docs/screenshots/Savvy-faq.png?raw=true "Savvy FAQ")
+
+
+### HTTP API Examples ###
 
     Search for coffee:
 
