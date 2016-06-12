@@ -2,11 +2,7 @@
 
 Savvy is a location-based search engine for the prices of goods and services.
 
-This was the Senior Design Project that myself (Colin McIntosh), Will Ashman, Eric Buck, Jordan Jobs, Christian
-Santarelli and Ryan Timken worked on at Drexel University for 9 months in 2015-2016. I worked on the backend
-development, Will worked on the frontend development, and Eric, Jordan, Christian, and Ryan worked on the documentation
-and paperwork.
-
+This was the Senior Design Project that myself Colin McIntosh, Will Ashman, Eric Buck, Jordan Jobs, and Ryan Timken worked on at Drexel University for 9 months in 2015-2016. I worked on the UI along side Will Ashman. Colin McIntosh worked on the backend.
 ### Details ###
 
 |               |                                            |
