@@ -20,9 +20,19 @@ This app is meant to be deployed using Microsoft Azure. A Microsoft Azure Web Ap
 and configured to deploy this repository to the document root. For development purposes you can run a local copy of the
 website by using the `runserver.py` file.
 
+Using [virtualenv](https://virtualenv.pypa.io/en/stable/) is recommended but you can skip those steps and use your system-instance of Python instead and everything will be okay.
+
+You must change the `config.py` to configure Savvy.
+
 ```shell
+git clone https://github.com/colinmcintosh/Savvy.git
+cd Savvy
+virtualenv env && source env/bin/activate   # Optional -- Linux
+$(virtualenv env) -and $(env/Scripts/activate.ps1)   # Optional -- Windows PowerShell
+vim backend/config.py
 pip install -r requirements.txt
 python runserver.py
+# Navigate to http://localhost:5555/
 ```
 
 ### Screenshots ###
